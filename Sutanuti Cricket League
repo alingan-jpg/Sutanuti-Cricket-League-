@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sutanuti Cricket League</title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .content {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sutanuti Cricket League</h1>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#teams">Teams</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="content" id="about">
+    <h2>About Us</h2>
+    <p>Welcome to the official website of the Sutanuti Cricket League! Our league is dedicated to bringing together the best cricket talent in the region. We host exciting matches and foster a sense of community and sportsmanship.</p>
+</div>
+
+<div class="content" id="teams">
+    <h2>Teams</h2>
+    <p>Our league features the following teams:</p>
+    <ul>
+        <li>Team A</li>
+        <li>Team B</li>
+        <li>Team C</li>
+        <li>Team D</li>
+    </ul>
+</div>
+
+<div class="content" id="schedule">
+    <h2>Schedule</h2>
+    <p>Check out our upcoming matches:</p>
+    <ul>
+        <li>Match 1: Date, Time, Venue</li>
+        <li>Match 2: Date, Time, Venue</li>
+        <li>Match 3: Date, Time, Venue</li>
+        <li>Match 4: Date, Time, Venue</li>
+    </ul>
+</div>
+
+<div class="content" id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to get in touch, please email us at <a href="mailto:contact@sutanuticricketleague.com">contact@sutanuticricketleague.com</a>.</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Sutanuti Cricket League. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
